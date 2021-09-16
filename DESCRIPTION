@@ -1,0 +1,19 @@
+Package: praiseme
+Title: Get praised
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Erik",
+           family = "Viljamaa",
+           role = c("aut", "cre"),
+           email = "erik.viljamaa@students.mq.edu.au")
+Description: This package reminds that you're the realest and that nobody can f*ck with you.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    glue
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
